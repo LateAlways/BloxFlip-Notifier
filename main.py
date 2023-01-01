@@ -3,7 +3,7 @@ from discord_webhooks import DiscordWebhooks
 import time
 import json
 
-webhook = DiscordWebhooks("https://discord.com/api/webhooks/1021579277482872922/V_MwA71Gl5dljQC_XdDDo35uOb1HW_dkgyHfJ5tgWnvZ6h4ioiRtIUgYBbUHxHbBTo6F")
+webhook = DiscordWebhooks("WEBHOOK URL")
 print("Starting up...")
 def notify(amount):
     webhook.set_content(title="NEW RAIN STARTED!",description='Amount: '+str(amount),url="https://bloxflip.com",content="@everyone")
