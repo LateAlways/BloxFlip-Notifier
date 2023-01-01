@@ -11,7 +11,7 @@ def notify(amount):
 
 while True:
     try:
-        scraper = cloudscraper.create_scraper(captcha={'provider': '2captcha','api_key': 'a29e1eaa51c36cb63b6cf263deb01049'},interpreter='nodejs')
+        scraper = cloudscraper.create_scraper(captcha={'provider': '2captcha','api_key': '2CAPTCHA_KEY'},interpreter='nodejs')
     except:
         print("Failed to get cloudflare tokens. Retrying...")
         continue
